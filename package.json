@@ -10,7 +10,8 @@
     "source",
     "404.html",
     "favicon.ico",
-    "index.html"
+    "index.html",
+    "robots.txt"
   ],
   "devDependencies": {
     "http-server": "14.1.1",

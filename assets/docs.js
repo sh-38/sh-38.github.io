@@ -53,10 +53,27 @@ const addFlag = (country, rowDiv) => {
   flagImgSquare.src = country.flag_1x1;
   flagImgSquare.alt = `Flag of ${country.name}`;
 
+  const flagRectangle = document.createElement("span");
+  flagRectangle.classList.add("fi");
+  flagRectangle.classList.add(`fi-${country.code}`);
+  const flagSquare = document.createElement("span");
+  flagSquare.classList.add("fi");
+  flagSquare.classList.add(`fi-${country.code}`);
+  flagSquare.classList.add("fis");
+  const dividerFlagSpan = document.createElement("span");
+  dividerFlagSpan.appendChild(document.createTextNode(" "));
+
+  const flagCSS = document.createElement("div");
+  flagCSS.classList.add("flag-css");
+  flagCSS.appendChild(flagRectangle);
+  flagCSS.appendChild(dividerFlagSpan);
+  flagCSS.appendChild(flagSquare);
+
   colDiv.appendChild(flagDiv);
   flagDiv.appendChild(countryDiv);
   flagDiv.appendChild(flagImg);
   flagDiv.appendChild(flagImgSquare);
+  flagDiv.appendChild(flagCSS);
   rowDiv.appendChild(colDiv);
 };
 

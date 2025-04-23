@@ -72,6 +72,13 @@ h2 {
   border-bottom: 1px solid #e9ecef;
 }
 
+.flag-css {
+  width: 100%;
+  border-top: 1px solid #e9ecef;
+  margin-top: 8px;
+  text-align: center;
+}
+
 .flag-img {
   width: 100%;
   aspect-ratio: 4 / 3;
