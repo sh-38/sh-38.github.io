@@ -1,0 +1,40 @@
+{
+  "name": "sh-38",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "main": "css/flag-icons.css",
+  "files": [
+    "assets",
+    "css",
+    "flags",
+    "genres",
+    "source",
+    "404.html",
+    "favicon.ico",
+    "index.html",
+    "robots.txt"
+  ],
+  "devDependencies": {
+    "http-server": "14.1.1",
+    "prettier": "3.5.2",
+    "sass": "1.86.3",
+    "sass-migrator": "^2.3.1",
+    "svgexport": "^0.4.2",
+    "svgo": "3.3.2"
+  },
+  "scripts": {
+    "export:png": "svgexport",
+    "migrator": "sass-migrator module --migrate-deps",
+    "build:dev": "sass --no-source-map --no-charset sass/flag-icons.scss css/flag-icons.css",
+    "build:min": "sass --no-source-map --no-charset --style=compressed sass/flag-icons.scss css/flag-icons.min.css",
+    "build": "npm run build:dev && npm run build:min",
+    "fix": "prettier --write",
+    "ids": "python3 flag-ids.py",
+    "prettier": "prettier \"**/*.{html,json,md,scss,yaml,yml,js}\"",
+    "start": "http-server -a localhost -p 8000",
+    "svgo:all": "find flags | grep '\\.svg$' | xargs -Iz -n 1 npm run svgo z && npm run ids",
+    "svgo:min": "find flags | grep '\\.svg$' | xargs -Iz -n 1 svgo z && npm run ids",
+    "svgo": "svgo --pretty --indent=2 --precision=1",
+    "test": "prettier --list-different"
+  }
+}

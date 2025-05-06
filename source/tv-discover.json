@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Crime TV Shows",
+    "type": "movie",
+    "query": "https://api.themoviedb.org/3/discover/tv?with_genres=80&page=1",
+    "uiType": "normal",
+    "isMore": true
+  },
+  {
+    "title": "Top Shows in US",
+    "type": "movie",
+    "query": "https://api.themoviedb.org/3/discover/tv?region=US&sort_by=popularity.desc&page=1",
+    "uiType": "rank",
+    "isMore": true
+  },
+  {
+    "title": "Action & Adventure",
+    "type": "movie",
+    "query": "https://api.themoviedb.org/3/discover/tv?with_genres=10759&page=1",
+    "uiType": "normal",
+    "isMore": true
+  },
+  {
+    "title": "",
+    "type": "nativeAd",
+    "query": "",
+    "uiType": "",
+    "isMore": false
+  },
+  {
+    "title": "Top Shows in UK",
+    "type": "movie",
+    "query": "https://api.themoviedb.org/3/discover/tv?region=GB&sort_by=popularity.desc&page=1",
+    "uiType": "rank",
+    "isMore": true
+  },
+  {
+    "title": "Top Shows in India",
+    "type": "movie",
+    "query": "https://api.themoviedb.org/3/discover/tv?region=IN&sort_by=popularity.desc&page=1",
+    "uiType": "rank",
+    "isMore": true
+  },
+  {
+    "title": "Family Shows",
+    "type": "movie",
+    "query": "https://api.themoviedb.org/3/discover/tv?with_genres=10751&page=1",
+    "uiType": "normal",
+    "isMore": true
+  },
+  {
+    "title": "Top Reality Shows",
+    "type": "movie",
+    "query": "https://api.themoviedb.org/3/discover/tv?with_genres=10764&page=1",
+    "uiType": "normal",
+    "isMore": true
+  },
+  {
+    "title": "Sci-Fi & Fantasy Shows",
+    "type": "movie",
+    "query": "https://api.themoviedb.org/3/discover/tv?with_genres=10765&page=1",
+    "uiType": "normal",
+    "isMore": true
+  }
+]

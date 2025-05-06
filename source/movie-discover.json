@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Most Popular Movies",
+    "type": "movie",
+    "query": "https://api.themoviedb.org/3/discover/movie?with_genres=28&page=1",
+    "uiType": "normal",
+    "isMore": false
+  },
+  {
+    "title": "Action Movies",
+    "type": "movie",
+    "query": "https://api.themoviedb.org/3/discover/movie?with_genres=28&page=1",
+    "uiType": "normal",
+    "isMore": true
+  },
+  {
+    "title": "Top Movies in UK",
+    "type": "movie",
+    "query": "https://api.themoviedb.org/3/discover/movie?region=GB&sort_by=popularity.desc&page=1",
+    "uiType": "rank",
+    "isMore": true
+  },
+  {
+    "title": "",
+    "type": "nativeAd",
+    "query": "",
+    "uiType": "",
+    "isMore": false
+  },
+  {
+    "title": "Comedy Movies",
+    "type": "movie",
+    "query": "https://api.themoviedb.org/3/discover/movie?with_genres=35&sort_by=popularity.desc&page=1",
+    "uiType": "normal",
+    "isMore": true
+  },
+  {
+    "title": "Top Movies of South Korea",
+    "type": "movie",
+    "query": "https://api.themoviedb.org/3/discover/movie?with_original_language=ko&with_countries=KR&sort_by=vote_average.desc&page=1",
+    "uiType": "rank",
+    "isMore": true
+  },
+  {
+    "title": "Adventure Movies",
+    "type": "movie",
+    "query": "https://api.themoviedb.org/3/discover/movie?with_genres=12&sort_by=popularity.desc&page=1",
+    "uiType": "normal",
+    "isMore": true
+  },
+  {
+    "title": "Top Animation Movies",
+    "type": "tank",
+    "query": "https://api.themoviedb.org/3/discover/movie?with_genres=16&sort_by=popularity.desc&page=1",
+    "uiType": "rank",
+    "isMore": true
+  }
+]
