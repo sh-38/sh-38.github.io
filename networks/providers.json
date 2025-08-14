@@ -1,7 +1,7 @@
 [
   {
       "display_priority": 4,
-      "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+      "logo_path": "networks/netflix.png",
       "provider_name": "Netflix",
       "provider_id": 8
   },
@@ -31,13 +31,13 @@
   },
   {
       "display_priority": 2,
-      "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+      "logo_path": "networks/appletv.png",
       "provider_name": "Apple TV",
       "provider_id": 2
   },
   {
       "display_priority": 6,
-      "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg",
+      "logo_path": "networks/hulu.png",
       "provider_name": "Hulu",
       "provider_id": 15
   },
