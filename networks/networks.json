@@ -1,49 +1,49 @@
 [
   {
       "id": 420,
-      "logo_path": "/hUzeosd33nzE5MCNsZxCGEKTXaQ.png",
+      "logo_path": "networks/marvel.png",
       "name": "Marvel Studios",
       "origin_country": "US"
   },
   {
       "id": 3,
-      "logo_path": "/1TjvGVDMYsj6JBxOAkUHpPEwLf7.png",
+      "logo_path": "networks/pixar.png",
       "name": "Pixar",
       "origin_country": "US"
   },
   {
       "id": 174,
-      "logo_path": "/kgJaIcKZZK4lTazer55XrgWDEvp.png",
+      "logo_path": "networks/warnerbros.png",
       "name": "Warner Bros. Pictures",
       "origin_country": "US"
   },
   {
       "id": 2,
-      "logo_path": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+      "logo_path": "networks/waltdisney.png",
       "name": "Walt Disney Pictures",
       "origin_country": "US"
   },
   {
       "id": 1,
-      "logo_path": "/tlVSws0RvvtPBwViUyOFAO0vcQS.png",
+      "logo_path": "networks/lucasfilm.png",
       "name": "Lucasfilm Ltd.",
       "origin_country": "US"
   },
   {
       "id": 9993,
-      "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+      "logo_path": "networks/dc.png",
       "name": "DC Entertainment",
       "origin_country": "US"
   },
   {
       "id": 5,
-      "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+      "logo_path": "networks/columbiapicture.png",
       "name": "Columbia Pictures",
       "origin_country": "US"
   },
   {
       "id"  : 7,
-      "logo_path": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
+      "logo_path": "networks/dreamworks.png",
       "name": "DreamWorks Pictures",
       "origin_country": "US"
   },  
